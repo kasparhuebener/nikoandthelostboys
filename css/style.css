@@ -70,6 +70,13 @@ body {
 	background-image: url(../images/johann.jpg);
 }
 #requirements {
+	background-image: url(../images/equipment_red.png);
+	background-size: 30rem;
+	background-position: bottom right;
+	padding-bottom: 5rem;
+	margin-bottom: 5rem;
+	padding-right: 0;
+	margin-right: 2rem;
 }
 #interlude-setlist {
 	background-image: url(../images/setlist.jpg);
@@ -121,6 +128,8 @@ body {
 		min-height: 80rem;
 	}
 	#requirements {
+		background-position: 10rem bottom;
+		margin-right: 0rem;
 	}
 	#interlude-setlist {
 	}
