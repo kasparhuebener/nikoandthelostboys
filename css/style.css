@@ -52,6 +52,13 @@ body {
 	background-image: url(../images/dance.jpg);
 }
 #setlist {
+	background-image: url(../images/vinylplayer_red.png);
+	background-size: 30rem;
+	background-position: bottom right;
+	padding-bottom: 5rem;
+	margin-bottom: 5rem;
+	padding-right: 0;
+	margin-right: 2rem;
 }
 #interlude-party1 {
 	background-image: url(../images/party1.jpg);
@@ -113,6 +120,7 @@ body {
 	#interlude-dance {
 	}
 	#setlist {
+		background-size: auto;
 	}
 	#interlude-party1 {
 	}
