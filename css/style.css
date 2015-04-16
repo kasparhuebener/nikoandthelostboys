@@ -157,3 +157,28 @@ body {
 	#imprint {
 	}
 }
+
+@media (min-width: 1920px) {
+	/* overwriting skeleton rule */
+	html {
+		font-size: 100%;
+	}
+
+	.section,
+	.interlude {
+		box-sizing: border-box;
+		background-size: 1920px 1280px;
+		background-attachment: scroll;
+	}
+
+	#intro,
+	.interlude {
+		height: 1280px;
+		min-height: 0;
+	}
+
+	#interlude-johann,
+	#interlude-party3 {
+		min-height: 0;
+	}
+}
