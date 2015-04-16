@@ -8,14 +8,15 @@ reddish gray: HSLa(6,33%,28,11);
 */
 
 body {
-	color: #f2e4e3;
 	color: hsla(5,63%,95%,1.0);
-	background-color: #130602;
+	color: hsl(5,63%,95%);
+ 	background-color: #130602;
 	background-color: hsla(5, 3%, 5%, 1.0)
 }
 
 .section,
 .interlude {
+	box-sizing: border-box;
 	padding: 2rem;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -28,11 +29,9 @@ body {
 .section.row {
 	margin-bottom: 0;
 }
-
 .interlude {
 	background-color: hsla(5, 63%, 18%, 1.0);
 }
-
 .center {
 	text-align: center;
 }
@@ -136,7 +135,6 @@ body {
 	#bandmembers {
 	}
 	#interlude-johann {
-		min-height: 80rem;
 	}
 	#requirements {
 		background-position: 10rem bottom;
@@ -152,7 +150,6 @@ body {
 	}
 	#interlude-party3 {
 		background-position: bottom;
-		min-height: 80rem;
 	}
 	#imprint {
 	}
@@ -166,7 +163,6 @@ body {
 
 	.section,
 	.interlude {
-		box-sizing: border-box;
 		background-size: 1920px 1280px;
 		background-attachment: scroll;
 	}
@@ -180,5 +176,8 @@ body {
 	#interlude-johann,
 	#interlude-party3 {
 		min-height: 0;
+	}
+	#occasion {
+		background-size: cover; 
 	}
 }
