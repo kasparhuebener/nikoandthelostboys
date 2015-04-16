@@ -39,7 +39,7 @@ body {
 
 /* background images*/
 .interlude {
-	min-height: 15rem;
+	height: 66.6667vw; /* to keep aspect ratio of image 2:3; */
 }
 #intro {
 	background-image: url(../images/intro.jpg);
@@ -109,13 +109,16 @@ body {
 	}
 
 	.interlude {
+		background-attachment: fixed;
 		min-height: 50rem;
 	}
 	#intro h1 {
 		text-shadow: black 0 0 2rem;
 	}
 	#intro {
+		box-sizing: border-box;
 		min-height: 50rem;
+		height: 100vh;
 	}
 	#interlude-dance {
 	}
@@ -148,6 +151,7 @@ body {
 		background-position: 5rem 5rem;
 	}
 	#interlude-party3 {
+		background-position: bottom;
 		min-height: 80rem;
 	}
 	#imprint {
