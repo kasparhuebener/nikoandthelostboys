@@ -115,7 +115,6 @@ body {
 		text-shadow: black 0 0 2rem;
 	}
 	#intro {
-		box-sizing: border-box;
 		min-height: 50rem;
 		height: 100vh;
 	}
@@ -155,6 +154,47 @@ body {
 	}
 }
 
+/* target iPhone and iPad specifically, they cannot handle fixed backgrounds */
+/* see here: http://stephen.io/mediaqueries/ */
+
+/* iPhone 6 Plus */
+@media (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: landscape) {
+	.interlude {
+		background-attachment: scroll;
+		min-height: 0;
+	}
+	#contact {
+		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+	}
+}
+/* iPhone 5 & 5s */
+@media (min-device-width: 320px) 
+and (max-device-width: 568px) 
+and (orientation: landscape) {
+	.interlude {
+		background-attachment: scroll;
+		min-height: 0;
+	}
+	#contact {
+		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+	}
+}
+/* all iPads */
+@media (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+	.interlude {
+		background-attachment: scroll;
+		min-height: 0;
+	}
+	#contact {
+		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+	}
+}
+
+
+/* for very large screens, adjust styles a bit */
 @media (min-width: 1920px) {
 	/* overwriting skeleton rule */
 	html {
