@@ -43,6 +43,9 @@ body {
 #intro {
 	background-image: url(../images/intro.jpg);
 	background-position: left bottom;
+	min-height: 50rem;
+	height: 100vh;
+	padding-top: 2rem;
 }
 #intro h1 {
 	text-shadow: black 0 0 2rem;
@@ -106,17 +109,13 @@ body {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	#intro {
+		padding-top: 10rem;
+	}
 
 	.interlude {
 		background-attachment: fixed;
 		min-height: 50rem;
-	}
-	#intro h1 {
-		text-shadow: black 0 0 2rem;
-	}
-	#intro {
-		min-height: 50rem;
-		height: 100vh;
 	}
 	#interlude-dance {
 	}
@@ -167,6 +166,7 @@ and (orientation: landscape) {
 	}
 	#contact {
 		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+		text-shadow: black 0 0 2rem;
 	}
 }
 /* iPhone 5 & 5s */
@@ -179,6 +179,7 @@ and (orientation: landscape) {
 	}
 	#contact {
 		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+		text-shadow: black 0 0 2rem;
 	}
 }
 /* all iPads */
@@ -190,6 +191,7 @@ and (max-device-width: 1024px)  {
 	}
 	#contact {
 		background-image: url(../images/logo_natlb_400px_red_trans_80p.png);
+		text-shadow: black 0 0 2rem;
 	}
 }
 
