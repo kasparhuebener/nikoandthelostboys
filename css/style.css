@@ -14,6 +14,10 @@ body {
 	background-color: hsla(5, 3%, 5%, 1.0)
 }
 
+img {
+	max-width: 100%;
+}
+
 .section,
 .interlude {
 	box-sizing: border-box;
@@ -75,6 +79,9 @@ body {
 }
 #bandmembers {
 }
+img.portrait {
+	width: 30rem;
+}
 #interlude-johann {
 	background-image: url(../images/johann.jpg);
 }
@@ -87,8 +94,8 @@ body {
 	padding-right: 0;
 	margin-right: 2rem;
 }
-#interlude-setlist {
-	background-image: url(../images/setlist.jpg);
+#interlude-party4 {
+	background-image: url(../images/party4.jpg);
 }
 #contact {
 	background-image: url(../images/logo_natlb_400px_red.png);
@@ -101,6 +108,9 @@ body {
 	background-image: url(../images/party3.jpg);
 }
 #imprint {
+}
+#interlude-party5 {
+	background-image: url(../images/party5.jpg);
 }
 
 @media (min-width: 550px) {
