@@ -55,7 +55,7 @@ img {
 	text-shadow: black 0 0 2rem;
 }
 #interlude-dance {
-	background-image: url(../images/dance.jpg);
+	background-image: url(../images/akustik.jpg);
 }
 #setlist {
 	background-repeat: no-repeat;
@@ -112,8 +112,8 @@ img.portrait {
 	padding-right: 0;
 	margin-right: 2rem;
 }
-#interlude-party4 {
-	background-image: url(../images/party4.jpg);
+#interlude-strauss {
+	background-image: url(../images/strauss.jpg);
 }
 #contact {
 	background-image: url(../images/logo_natlb_400px_red.png);
@@ -122,8 +122,8 @@ img.portrait {
 	padding-bottom: 30rem;
 	margin-bottom: 5rem;
 }
-#interlude-party3 {
-	background-image: url(../images/party3.jpg);
+#interlude-party6 {
+	background-image: url(../images/party6.jpg);
 }
 #imprint {
 }
