@@ -46,7 +46,7 @@ img {
 }
 #intro {
 	background-image: url(../images/logo_natlb_400px_red.png);
-	background-position: right 4rem;
+	background-position: right 8rem;
 	background-size: 30rem;
 	padding-top: 2rem;
 }
@@ -162,6 +162,12 @@ img.portrait {
 }
 #interlude-party5 {
 	background-image: url(../images/party5.jpg);
+}
+
+@media (min-width: 321px) {
+	#intro {
+		background-position: right 4rem;
+	}
 }
 
 @media (min-width: 550px) {
