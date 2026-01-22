@@ -45,7 +45,7 @@ img {
 	height: 66.6667vw; /* to keep aspect ratio of image 2:3; */
 }
 #intro {
-	background-image: url(../images/party7.jpg);
+	background-image: url(../images/intro.jpg);
 	background-position: right 8rem;
 	background-size: 30rem;
 	padding-top: 2rem;
@@ -129,7 +129,7 @@ img.portrait {
 		padding-right: 0;
 	}
 	#intro {
-		background-image: url(../images/party7.jpg);
+		background-image: url(../images/intro.jpg);
 		background-position: left bottom;
 		background-size: cover;
 		min-height: 50rem;
