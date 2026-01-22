@@ -45,16 +45,13 @@ img {
 	height: 66.6667vw; /* to keep aspect ratio of image 2:3; */
 }
 #intro {
-	background-image: url(../images/logo_natlb_400px_red.png);
+	background-image: url(../images/party7.jpg);
 	background-position: right 8rem;
 	background-size: 30rem;
 	padding-top: 2rem;
 }
 #intro h1 {
 	text-shadow: black 0 0 2rem;
-}
-#interlude-dance {
-	background-image: url(../images/akustik.jpg);
 }
 #setlist {
 	background-repeat: no-repeat;
@@ -64,25 +61,42 @@ img {
 	padding-right: 0;
 	margin-right: 2rem;
 }
-
-#interlude-party1 {
-	background-image: url(../images/party1.jpg);
-}
 #occasion {
 	background-image: url(../images/partyzelt.jpg);
 	background-position: -30rem bottom;
 	padding-bottom: 30rem;
 }
-#interlude-niko {
-	background-image: url(../images/niko.jpg);
+#interlude-one {
+	background-image: url(../images/band.jpg);
+}
+#interlude-two {
+	background-image: url(../images/akustik5.jpg);
+}
+#interlude-three {
+	background-image: url(../images/party6.jpg);
+}
+#interlude-four {
+	background-image: url(../images/party5.jpg);
+}
+#interlude-five {
+	background-image: url(../images/akustik2.jpg);
+}
+#interlude-six {
+	background-image: url(../images/saxofon.jpg);
+}
+#interlude-seven {
+	background-image: url(../images/party2.jpg);
+}
+#interlude-eight {
+	background-image: url(../images/dance.jpg);
+}
+#interlude-nine {
+	background-image: url(../images/band2.jpg);
 }
 #bandmembers {
 }
 img.portrait {
 	width: 30rem;
-}
-#interlude-johann {
-	background-image: url(../images/johann.jpg);
 }
 #requirements {
 	background-image: url(../images/equipment_red.png);
@@ -93,9 +107,6 @@ img.portrait {
 	padding-right: 0;
 	margin-right: 2rem;
 }
-#interlude-strauss {
-	background-image: url(../images/strauss.jpg);
-}
 #contact {
 	background-image: url(../images/logo_natlb_400px_red.png);
 	background-size: contain;
@@ -103,15 +114,8 @@ img.portrait {
 	padding-bottom: 30rem;
 	margin-bottom: 5rem;
 }
-#interlude-party6 {
-	background-image: url(../images/party6.jpg);
-}
 #imprint {
 }
-#interlude-party5 {
-	background-image: url(../images/party5.jpg);
-}
-
 @media (min-width: 321px) {
 	#intro {
 		background-position: right 4rem;
@@ -125,7 +129,7 @@ img.portrait {
 		padding-right: 0;
 	}
 	#intro {
-		background-image: url(../images/intro.jpg);
+		background-image: url(../images/party7.jpg);
 		background-position: left bottom;
 		background-size: cover;
 		min-height: 50rem;
